@@ -1,0 +1,9 @@
+<persistence-unit name="myPU" transaction-type="RESOURCE_LOCAL">
+    <class>com.example.Product</class>
+    <properties>
+        <property name="javax.persistence.jdbc.url" value="jdbc:postgres://localhost:5432/product"/>
+        <property name="javax.persistence.jdbc.user" value="postgres"/>
+        <property name="javax.persistence.jdbc.password" value="12345"/>
+        <property name="javax.persistence.jdbc.driver" value="com.postgres.jdbc.Driver"/>
+    </properties>
+</persistence-unit>
